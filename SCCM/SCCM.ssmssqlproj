@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SCCM">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="CONFIGMGR-P01:HOME\mieszko">
+          <Created>2017-07-10T18:20:38.8771069+02:00</Created>
+          <Type>SQL</Type>
+          <Server>CONFIGMGR-P01</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ClientHealthStatus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CONFIGMGR-P01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CONFIGMGR-P01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ClientHealthStatus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SCCM_DeleteCI.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CONFIGMGR-P01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CONFIGMGR-P01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SCCM_DeleteCI.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Security_MS17-010_Win10.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CONFIGMGR-P01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CONFIGMGR-P01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Security_MS17-010_Win10.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Security_MS17-010_WinOld.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CONFIGMGR-P01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CONFIGMGR-P01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Security_MS17-010_WinOld.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
